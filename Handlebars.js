@@ -1,3 +1,5 @@
+(function () {
+
 /*
 
 Copyright (C) 2011 by Yehuda Katz
@@ -2276,3 +2278,10 @@ Handlebars.template = Handlebars.VM.template;
 // lib/handlebars/browser-suffix.js
 })(Handlebars);
 ;
+
+// AMD Define
+define(function(){
+    return Handlebars;
+});
+
+})();
